@@ -186,8 +186,8 @@
       "enabled": true,
       "isBuiltIn": true,
       "capabilities": [
-        "vision",
-        "reasoning"
+        "reasoning",
+        "vision"
       ]
     },
     {
@@ -245,18 +245,30 @@
       "name": "deepseek-ai/DeepSeek-V3",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": false,
+      "isBuiltIn": true,
       "baseUrl": "https://api.siliconflow.com/v1"
     },
     {
       "name": "deepseek-ai/DeepSeek-R1",
       "provider": "siliconflow",
       "enabled": false,
-      "isBuiltIn": false,
+      "isBuiltIn": true,
       "baseUrl": "https://api.siliconflow.com/v1",
       "capabilities": [
         "reasoning"
       ]
+    },
+    {
+      "name": "deepseek-r1:14b",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": false,
+      "capabilities": [],
+      "stream": true,
+      "displayName": "deepseek-r1:14b"
     }
   ],
   "activeEmbeddingModels": [
@@ -342,6 +354,17 @@
       "enabled": true,
       "isBuiltIn": true,
       "isEmbeddingModel": true
+    },
+    {
+      "name": "bge-m3",
+      "provider": "ollama",
+      "enabled": true,
+      "isBuiltIn": false,
+      "baseUrl": "",
+      "apiKey": "",
+      "isEmbeddingModel": true,
+      "capabilities": [],
+      "displayName": "bge-m3"
     }
   ],
   "embeddingRequestsPerMin": 60,

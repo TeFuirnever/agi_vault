@@ -225,6 +225,14 @@
       "providerId": "morph",
       "id": "morph-v0",
       "model": "morph-v0"
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "deepseek-r1:14b",
+      "model": "deepseek-r1:14b",
+      "promptLevel": 1,
+      "enable": true
     }
   ],
   "embeddingModels": [
@@ -267,6 +275,13 @@
       "providerType": "ollama",
       "providerId": "ollama",
       "id": "ollama/bge-m3",
+      "model": "bge-m3",
+      "dimension": 1024
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "bge-m3",
       "model": "bge-m3",
       "dimension": 1024
     }
