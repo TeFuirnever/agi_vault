@@ -1,0 +1,11 @@
+{
+  "defaultEndpoint": "http://127.0.0.1:11435/v1",
+  "defaultModel": "deepseek-r1:14b",
+  "defaultApiKey": "no-key-needed",
+  "defaultMaxOutgoingCharacters": 4096,
+  "defaultMaxNumTokens": 1024,
+  "debugToConsole": false,
+  "displayTokenUsageDesktop": true,
+  "displayTokenUsageMobile": false,
+  "defaultSystemMessage": "You are a helpful assistant."
+}

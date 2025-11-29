@@ -286,9 +286,9 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "claude-sonnet-4.5",
-  "applyModelId": "gpt-4.1-mini",
-  "embeddingModelId": "openai/text-embedding-3-small",
+  "chatModelId": "deepseek-r1:14b",
+  "applyModelId": "deepseek-r1:14b",
+  "embeddingModelId": "bge-m3",
   "systemPrompt": "",
   "ragOptions": {
     "chunkSize": 1000,
