@@ -1,4 +1,4 @@
----
+﻿---
 summary: "Help hub: common fixes, install sanity, and where to look when something breaks"
 read_when:
   - You’re new and want the “what do I click/run” guide
@@ -15,6 +15,7 @@ If you want a quick “get unstuck” flow, start here:
 - **Gateway issues:** [Gateway troubleshooting](/gateway/troubleshooting)
 - **Logs:** [Logging](/logging) and [Gateway logging](/gateway/logging)
 - **Repairs:** [Doctor](/gateway/doctor)
+- **New contributor ramp-up:** [Core path onboarding](/help/new-contributor-ramp-up)
 
 If you’re looking for conceptual questions (not “something broke”):
 
