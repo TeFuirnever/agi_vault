@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pandoc:*)",
+      "Bash(python:*)",
+      "Bash(pip install:*)",
+      "Bash(powershell -Command:*)"
+    ]
+  }
+}
